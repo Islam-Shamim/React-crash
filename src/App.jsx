@@ -1,5 +1,6 @@
 
 import './App.css';
+import Counter from './components/Counter';
 
 function App() {
   const clickHandler = () => {
@@ -15,8 +16,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>Welcome again React</h2>
+        <Counter></Counter>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corporis officia nesciunt. Quidem nemo, earum ipsa labore perspiciatis in eos! Laborum sequi praesentium ea neque, consequatur molestiae accusamus libero necessitatibus.</p>
       </header>
+
       <div className='space-x-2'>
         <button onClick={clickHandler}>Click Here</button>
         <button onClick={clickHandler2}>Click Here2</button>
